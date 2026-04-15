@@ -20,7 +20,7 @@ const EducationSection = () => (
             organization="Tribhuvan University, Asian School of Management and Technology"
             date="2021 – 2025"
             badges={["Programming", "Data Structures", "Algorithms", "Database Systems", "Software Engineering","Cloud Computing","Networking"]}
-            link={{ text: "Learn more", url: "https://asian.edu.np/" }}
+            link={{ text: "Learn more", url: "https://www.asm.edu.np/" }}
           >
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               Location: Kathmandu<br/>

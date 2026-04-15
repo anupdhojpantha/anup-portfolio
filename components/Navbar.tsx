@@ -16,8 +16,8 @@ export default function Navbar() {
   const handleDownloadResume = () => {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = 'anup/document/anup.pdf';
-    link.download = 'Anup_Pantha_DataAnalyst_Resume.pdf';
+    link.href = 'anup/document/Anuppantha_resume.pdf';
+    link.download = 'Anuppantha_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
