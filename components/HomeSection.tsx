@@ -131,7 +131,7 @@ const HomeSection = () => (
             transition={{ delay: 1.2, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-3 lg:gap-4 justify-center lg:justify-start"
           >
-            {<a href="/public/document/Anuppantha_resume.pdf" target="_blank" rel="noopener noreferrer">
+            {<a href="/document/Anuppantha_resume.pdf" target="_blank" rel="noopener noreferrer">
               <AnimatedButton className="px-6 lg:px-8 py-2 lg:py-3 text-sm lg:text-base fancy-button">
                 View Resume <ArrowRight className="ml-2 h-4 w-4" />
               </AnimatedButton>
