@@ -92,7 +92,7 @@ const HomeSection = () => (
               transition={{ duration: 0.8, delay: 0.2 }}
               className="inline-block px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-sm font-medium"
             >
-              Data Analyst | Business Intelligence | Dashboard Developer
+              QA Automation Engineer | Playwright | Test Automation
             </motion.div>
             <div className="space-y-3 lg:space-y-4">
               <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter premium-text-shadow">
@@ -107,10 +107,10 @@ const HomeSection = () => (
                 I'm a{" "}
                 <Typewriter
                   texts={[
-                    "Data Analyst",
-                    "Dashboard Developer",
-                    "Problem Solver",
-                    "Tech Enthusiast",
+                    "QA Automation Engineer",
+                    "SDET",
+                    "Playwright Developer",
+                    "Bug Hunter",
                   ]}
                 />
               </motion.h2>
@@ -120,8 +120,8 @@ const HomeSection = () => (
                 transition={{ delay: 1, duration: 0.8 }}
                 className="text-muted-foreground text-sm sm:text-base leading-relaxed max-w-2xl"
               >
-              I am an aspiring Data Analyst with a strong focus on extracting insights from data through analysis, visualization, and statistical methods. With a background in development, I bring strong programming skills along with hands-on experience in Python, SQL, and data visualization tools.
-              I am passionate about transforming complex datasets into actionable insights and building data-driven solutions that support business intelligence and strategic decision-making. I am eager to apply my skills in data cleaning, statistical analysis, and dashboard development to real-world projects and contribute to data-driven success.
+              I am an aspiring QA Automation Engineer with a strong focus on building reliable, maintainable automated test suites using Playwright and TypeScript. With a background in software development and data analysis, I bring strong programming fundamentals along with hands-on experience in SQL, data validation, and Python.
+              I am passionate about catching what others miss and building test infrastructure that teams can trust. I am eager to apply my skills in test automation, API testing, and CI/CD integration to real-world projects and contribute to shipping reliable software.
               </motion.p>
             </div>
           </div>

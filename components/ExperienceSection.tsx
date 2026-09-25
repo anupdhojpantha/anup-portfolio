@@ -26,6 +26,7 @@ const ExperienceSection = () => (
     <li>Analyzed business data using advanced Excel features including Pivot Tables, VLOOKUP, and conditional formatting</li>
     <li>Built automated reporting dashboards using Power Query to track KPIs and operational metrics</li>
     <li>Cleaned and transformed raw datasets to ensure data accuracy and consistency for reporting</li>
+    <li>Applied systematic data validation and quality-check processes to catch inconsistencies before reporting</li>
     <li>Skills Learned: Data modeling, business reporting, dashboard design, and Excel automation</li>
   </ul>
 </FlowbiteTimelineItem>
@@ -33,14 +34,14 @@ const ExperienceSection = () => (
         title="Data Analyst"
         organization="Spyder's Lab Pvt. Ltd."
         date="Feb 2025 – Present · 6 mos | Remote"
-         badges={["Python", "SQL", "Power BI", "Pandas", "Data Visualization", "ETL Pipelines", "Excel"]}
+         badges={["Python", "SQL", "Data Validation", "Pandas", "ETL Pipelines", "pytest", "Power BI"]}
 >
         <div className="font-semibold mb-1">Project: Sales Performance Intelligence Dashboard</div>
         <ul className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 list-disc list-inside">
     <li>Analyzed large datasets using Python (Pandas, NumPy) and SQL to uncover sales trends and business insights</li>
     <li>Built interactive Power BI dashboards to visualize KPIs, enabling data-driven decision-making across teams</li>
-    <li>Designed and maintained ETL pipelines to automate data extraction, transformation, and loading from multiple sources</li>
-    <li>Skills Learned: Statistical analysis, dashboard development, data cleaning, and cross-functional reporting</li>
+    <li>Designed and maintained ETL pipelines to automate data extraction, transformation, and loading from multiple sources, with validation checks to ensure data integrity at each stage</li>
+    <li>Skills Learned: Statistical analysis, data validation, dashboard development, and cross-functional reporting</li>
   </ul>
     </FlowbiteTimelineItem>
           <FlowbiteTimelineItem
@@ -66,4 +67,4 @@ const ExperienceSection = () => (
   </section>
 )
 
-export default ExperienceSection 
+export default ExperienceSection

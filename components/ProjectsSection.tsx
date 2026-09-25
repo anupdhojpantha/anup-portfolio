@@ -17,13 +17,24 @@ const projects = [
   },
  {
   id: 2,
-  title: "E-Commerce ETL Pipeline",
+  title: "E-Commerce ETL Pipeline with Automated Testing",
   date: "2025",
-  description: "End-to-end data engineering pipeline that ingests 50K+ records from CSV and JSON sources, transforms and cleans data with Pandas, loads into MySQL, and surfaces weekly KPI reports via SQL and Power BI.",
+  description: "End-to-end data pipeline that ingests 50K+ records from CSV and JSON sources, with an automated pytest suite validating data integrity, schema consistency, and transformation accuracy at each pipeline stage before loading into MySQL.",
   image: "/images/etl.png", // add a screenshot of your Power BI dashboard or pipeline diagram
-  tags: ["Python", "Pandas", "MySQL", "SQLAlchemy", "Power BI", "ETL", "pytest"],
-  category: "data engineering",
+  tags: ["Python", "pytest", "Data Validation", "MySQL", "SQLAlchemy", "ETL", "Power BI"],
+  category: "test automation",
   github: "https://github.com/anupdhojpantha/ecommerce-ETL",
+  webapp: ""
+},
+{
+  id: 3,
+  title: "Playwright E2E Test Suite (Coming Soon)",
+  date: "2026",
+  description: "Automated UI test suite built with Playwright and TypeScript, covering login and checkout flows using the Page Object Model, with tests running in a GitHub Actions CI pipeline. Currently in progress — check back soon.",
+  image: "/images/churn.png", // TODO: replace with a real screenshot/diagram once this project is built
+  tags: ["Playwright", "TypeScript", "Page Object Model", "GitHub Actions"],
+  category: "test automation",
+  github: "",
   webapp: ""
 },
 ]
